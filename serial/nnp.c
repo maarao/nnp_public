@@ -6,10 +6,6 @@
 #include "loader.h"
 #include "nnp.h"
 
-float train_data[NUM_TRAIN][SIZE];
-float train_label[NUM_TRAIN][CLASSES];   // one-hot
-float test_data[NUM_TEST][SIZE];
-float test_label[NUM_TEST][CLASSES];     // one-hot
 
 // Activation functions
 float relu(float x) { return x > 0 ? x : 0; }
